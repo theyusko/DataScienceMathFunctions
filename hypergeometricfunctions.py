@@ -50,7 +50,7 @@ def hypergeom_plot(N, A, n):
     plt.plot(x, y, 'bo')
     plt.vlines(x, 0, y, lw=2)
     plt.xlabel('# of desired items in our draw')
-    plt.ylabel('Probablities')
+    plt.ylabel('Probabilities')
     plt.title('Hypergeometric Distribution Plot')
     plt.show()
 
